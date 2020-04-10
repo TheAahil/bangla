@@ -48,23 +48,22 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;91m███████████████████▀█████████████ DWNT COPY YOUR FATHER 🦇
-\033[1;91m█▄─▄─▀█▄─▀█▄─▄█─▄▄▄▄█▄─▄████▀▄─██ AAHIL UPDATE COMMANDS 🦇
-\033[1;91m██─▄─▀██─█▄▀─██─██▄─██─██▀██─▀─██ VIRSON.         786.1 🦇
-\033[1;91m▀▄▄▄▄▀▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀ WE ARE BLACK TIGERS.  🦇
-
-jalan('\033[1;95mAGR TUM COMMANDS KI COPY KR RAHY HO')
-jalan('\033[1;95mTU US SA TUM AAHIL NI BNJAO GY ')
+\033[1;91m███████████████████▀█████████████ \033[1;81mDWNT COPY YOUR FATHER 🦇
+\033[1;91m█▄─▄─▀█▄─▀█▄─▄█─▄▄▄▄█▄─▄████▀▄─██ \033[1;82mAAHIL UPDATE COMMANDS 🦇
+\033[1;91m██─▄─▀██─█▄▀─██─██▄─██─██▀██─▀─██ \033[1;83mVIRSON.         786.1 🦇
+\033[1;91m▀▄▄▄▄▀▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀ \033[1;84mWE ARE BLACK TIGERS.  🦇
 
 \033[1;96m══║══▒═💀═▒═💀═▒═══¤═¤═¤═════════║🔥
 \033[1;96m══║✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗 ☪ 𝕸𝖗.𝕽𝖆𝖓𝖆 𝕬𝖆𝖍𝖎𝖑 ║🔥
 \033[1;96m══║✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 ☪ Aahil Creations ║🔥
 \033[1;96m══║✯ 𝕴𝖒 𝖓ø𝖙 𝖗𝖊𝖘𝖕𝖔𝖓𝖘𝖎𝖇𝖑𝖊 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖒𝖎𝖘𝖘 𝖚𝖘𝖊 ☪║
 \033[1;96m══║══▒═💀═▒═💀═▒═══¤═¤═¤═════════║🔥"""
+jalan("\033[1;95m▬▬AGR TUM COMMANDS KI COPY KR RAHY HO ")
+jalan("\033[1;95m▬▬TU US SA TUM AAHIL NI BNJAO GY ")
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;96mSedang masuk \x1b[1;96m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
